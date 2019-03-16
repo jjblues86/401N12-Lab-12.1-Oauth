@@ -143,6 +143,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # Webstorm
-
+*.idea
 
 # End of https://www.gitignore.io/api/vim,osx,node,linux,windows
