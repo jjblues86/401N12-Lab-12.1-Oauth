@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13eb0801-189f-4ee0-9314-d3e63942f786" name="Default Changelist" comment="" />
+    <list default="true" id="13eb0801-189f-4ee0-9314-d3e63942f786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/401N12-Lab-12.1-Oauth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/auth-server/src/auth/oauth/authO.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -64,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auth-server/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="227">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
             </state>
           </provider>
         </entry>
@@ -155,12 +162,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552769786087</updated>
-      <workItem from="1552769787559" duration="1479000" />
+      <workItem from="1552769787559" duration="2022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1479000" />
+    <option name="totallyTimeSpent" value="2022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="210" y="23" width="1049" height="727" extended-state="0" />
@@ -235,7 +242,7 @@
     <entry file="file://$PROJECT_DIR$/auth-server/src/auth/oauth/authO.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -255,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auth-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="227">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
