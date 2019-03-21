@@ -10,8 +10,9 @@ const supergoose = require('../../supergoose.js');
 const mockRequest = supergoose.server(server);
 
 let users = {
-    admin: {username: 'admin', password: 'password', role: 'admin'},
-    editor: {username: 'editor', password: 'password', role: 'editor'},
+    // Jerome - Vinicio gave us the go ahead to only use one role
+    // admin: {username: 'admin', password: 'password', role: 'admin'},
+    // editor: {username: 'editor', password: 'password', role: 'editor'},
     user: {username: 'user', password: 'password', role: 'user'},
 };
 
