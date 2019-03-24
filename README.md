@@ -6,6 +6,9 @@
 
 ### Links and Resources
 * [repo](https://github.com/jjblues86/401N12-Lab-12.1-Oauth)
+* [Heroku](https://lab-12-oauth-backend.herokuapp.com/) 
+
+* [![Build Status](https://www.travis-ci.com/jjblues86/401N12-Lab-12.1-Oauth.svg?branch=master)](https://www.travis-ci.com/jjblues86/401N12-Lab-12.1-Oauth)
 
 ### Setup
 .env requirements
