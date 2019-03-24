@@ -33,7 +33,7 @@ supergoose.startDB = async () => {
 
     await mongoose.connect(mongoUri, mongooseOptions, (err) => {
         if (err) console.error(err);
-    });
+});
 };
 
 /**
@@ -47,6 +47,6 @@ supergoose.stopDB = () => {
 // Just so that it can live in the tests folder
 describe('supergoose', () => {
     it('is super', () => {
-        expect(true).toBeTruthy();
-    });
+    expect(true).toBeTruthy();
+});
 });

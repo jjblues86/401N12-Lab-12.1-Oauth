@@ -9,7 +9,7 @@ const users = new mongoose.Schema({
     username: {type:String, required:true, unique:true},
     password: {type:String, required:true},
     email: {type: String},
-    role: {type: String, default:'user', enum: ['admin','editor','user']},
+    role: {type: String, default:'user', enum: ['user']},
 });
 
 users.pre('save', function(next) {
@@ -57,7 +57,7 @@ users.methods.generateToken = function() {
         id: this._id,
         role: this.role,
     };
-    return jwt.sign(token, process.env.SECRET);
+    return jwt.sign(token, process.env.TWITCH_CLIENT_SECRET);
 };
 
 module.exports = mongoose.model('users', users);

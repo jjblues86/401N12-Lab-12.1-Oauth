@@ -3,11 +3,12 @@
 const supergoose = require('../../supergoose.js');
 const auth = require('../../../src/auth/middleware.js');
 const Users = require('../../../src/auth/users-model.js');
+require('dotenv').config();
 
 let users = {
-    admin: {username: 'admin', password: 'password', role: 'admin'},
-    editor: {username: 'editor', password: 'password', role: 'editor'},
-    user: {username: 'user', password: 'password', role: 'user'},
+     admin: {username: 'admin', password: 'password', role: 'admin'},
+     editor: {username: 'editor', password: 'password', role: 'editor'},
+     user: {username: 'user', password: 'password', role: 'user'},
 };
 
 beforeAll(async (done) => {
